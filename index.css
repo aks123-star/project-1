@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Playball&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+
+
+.a{
+    
+    background-color:#019ce0;
+    height:100px;
+    
+    
+    
+}
+
+.navbar-toggler{
+    color: black;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.mylogo{
+    color: black;
+    float: right;
+ }
+ .navitem{
+     color:black;
+     font-size:20px;
+     transition: 0.1s ease;
+     font-family: 'Russo One', sans-serif;
+     padding: 10PX;
+     
+      
+ }
+ 
+.hero
+{
+    height:100vh;
+    width: 100%;
+    background-image: url(sky4.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+.caption1{
+       
+       margin-top: 150px;
+       font-size: 60px;
+}
+
+.road
+{
+    height:200px;
+    width: 500%;
+    /*display: block;*/
+    background-image: url(road4.jpg);
+    position: absolute;
+    bottom: 0;
+    left:0;
+    right: 0;
+    z-index: 1;
+    background-repeat: repeat-x;
+    animation: road 20s linear infinite;
+}
+@keyframes road
+{
+    100%{
+        transform: translateX(+0px);
+    }
+}
+
+
+
+.tree
+{
+    height:200px;
+    width:100%;
+   /* background-image: url(treeanime.gif);*/
+    position: absolute;
+    bottom: 200px;
+    left:0;
+    right:0;
+    display: block;
+    z-index:1;
+
+    animation: tree 5s linear infinite;
+}
+@keyframes tree
+{
+    100%{
+        transform: translateX(+1400px);
+    }
+}
+
+.caption2{
+    color:white;
+    margin-top: 100px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+.girl{
+    width: 300px;
+    left: 50%;
+    bottom:100px;
+    transform: translateX(-50%);
+    position: absolute;
+    z-index:2;
+}
+.girl img{
+    width:100%;
+    animation: girl 1s linear infinite;
+}
+@keyframes girl
+{
+    100%{
+        transform: translateX(-1px);
+    }
+    
+}
+
+
+.about{
+    background-color:#87cefa;
+    height: auto;
+    width: auto;
+    padding-left:30px ;
+}
+
+.heading{
+    padding-top: 50px;
+    font-size: 60px;
+}
+
+.description{
+    
+}
+
+.scrshot{
+    width: 40%;
+
+    margin-top: 70px;
+}
+
+
+.i{
+    background-color:white;
+    height:1300px;
+    padding-top: 100px;
+    
+  }
+  .j{
+      background-color:#8093ff;
+      height:540px;
+      width:80%;
+      margin-left: 10%;
+      
+      
+        
+  }
+  .fun1{
+     margin-left: 17%;
+      padding:20px;
+  }
+  @media(max-width:600px){
+      
+  .fun1{
+     margin-left: 6%;
+      padding:20px;
+  }
+  }
+  .fun2{
+      background-color:#8093ff;
+      height:500px;
+      width:80%;
+      margin-left: 10%;
+      margin-top: 3rem;
+      padding:20px;
+  }
+ 
+ 
+ 
+  .fa{
+     padding: 10px;
+     margin:10px;
+     font-size: 30px;
+     width: 50px;
+     text-align: center;
+     text-decoration: none;
+     border-radius: 50%;
+     transition:0.3s ease;
+     float:right;
+   }
+   
+   
+   .fa:hover {
+     background-color: white;
+     color:black;
+   }
+   
+  
+   
+  
+   .fa-facebook {
+     background:black;
+     color: white;
+   }
+   
+   
+   .fa-instagram {
+     background: black;
+     color: white;
+   }
+    .fa-twitter {
+        background-color: black;
+        color:white;
+    }
+    .m{
+       
+       /* padding-top: 30px;*/
+        height: 100px;
+    }
+
